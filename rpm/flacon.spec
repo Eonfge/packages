@@ -10,7 +10,7 @@ Source0:        https://github.com/flacon/flacon/archive/flacon-%{version}.tar.g
 BuildRoot:      %{_tmppath}/%{name}-%{version}-%{release}-root-%(%{__id_u} -n)
 BuildRequires:  cmake qt-devel pkgconfig gcc-c++ libuchardet-devel
 Requires:       shntool, flac, mac, uchardet
-Suggests:       vorbis-tools, wavpack, lame, vorbisgain, mp3gain, ttaenc, faac
+Suggests:       vorbis-tools, wavpack, lame, vorbisgain, mp3gain, ttaenc, faac, opus-tools
 
 %description
 Audio file splitter and converter

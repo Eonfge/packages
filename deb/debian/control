@@ -14,7 +14,7 @@ Homepage: https://github.com/flacon/flacon
 Package: flacon
 Architecture: any
 Depends: ${shlibs:Depends}, ${misc:Depends}, shntool, flac, mac
-Recommends: vorbis-tools, wavpack, lame, vorbisgain, mp3gain, ttaenc, faac
+Recommends: vorbis-tools, wavpack, lame, vorbisgain, mp3gain, ttaenc, faac, opus-tools
 Description: Audio file splitter and converter
  Flacon extracts individual tracks from one big audio file containing
  the entire album of music and saves them as separate audio files.
