@@ -1,0 +1,3 @@
+usr/include
+usr/lib/*/libmac.a
+usr/lib/*/libmac.so

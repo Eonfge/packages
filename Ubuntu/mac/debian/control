@@ -1,0 +1,67 @@
+Source: mac
+Section: sound
+Priority: extra
+Maintainer: Alexander Sokolov <sokoloff.a@gmail.com>
+Standards-Version: 3.9.8
+Build-Depends: debhelper (>= 9), quilt, chrpath, yasm [any-amd64 any-i386]
+
+Package: mac
+Section: sound
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: monkey's audio lossless audio codec - binary
+ Monkey's Audio is a highly efficient and popular lossless audio codec.
+ .
+ It is a tuned compressor for audio, like mp3, ogg, etc - but "lossless" in
+ that it does not completely discard information, and performs more of a
+ "zipping" that can be reversed at any time and generate the original source
+ audio file (hence "lossless" vs "lossy").
+ .
+ Features:
+  * Efficient (fast and great compression)
+  * Perfect sound - absolutely no quality loss
+  * Incorporates redundant CRC's to ensure proper decompression of data
+  * Tagging support - extremely flexible APE Tags
+ .
+ Support for file format before 3.99 has been removed. If you have old files
+ use the mac-old binary from the monkeys-audio-old package (support for all
+ files before 3.99) or ffmpeg 2.0 (support from 3.93 to 4.11).
+
+Package: libmac-dev
+Section: libdevel
+Architecture: any
+Multi-Arch: same
+Depends: libmac2 (= ${binary:Version}), ${misc:Depends}
+Description: monkey's audio lossless audio codec - devel
+ Monkey's Audio is a highly efficient and popular lossless audio codec.
+ .
+ It is a tuned compressor for audio, like mp3, ogg, etc - but "lossless" in
+ that it does not completely discard information, and performs more of a
+ "zipping" that can be reversed at any time and generate the original source
+ audio file (hence "lossless" vs "lossy").
+ .
+ Features:
+  * Efficient (fast and great compression)
+  * Perfect sound - absolutely no quality loss
+  * Incorporates redundant CRC's to ensure proper decompression of data
+  * Tagging support - extremely flexible APE Tags
+
+Package: libmac2
+Section: libs
+Architecture: any
+Multi-Arch: same
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: monkey's audio lossless audio codec - library
+ Monkey's Audio is a highly efficient and popular lossless audio codec.
+ .
+ It is a tuned compressor for audio, like mp3, ogg, etc - but "lossless" in
+ that it does not completely discard information, and performs more of a
+ "zipping" that can be reversed at any time and generate the original source
+ audio file (hence "lossless" vs "lossy").
+ .
+ Features:
+  * Efficient (fast and great compression)
+  * Perfect sound - absolutely no quality loss
+  * Incorporates redundant CRC's to ensure proper decompression of data
+  * Tagging support - extremely flexible APE Tags
