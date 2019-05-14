@@ -1,6 +1,6 @@
 # Имя и версия программы
-PROGRAM=flacon
-VERSION=5.4.0
+PROGRAM=mp3gain
+VERSION=1.5.2-r2
 
 # Дистрибутив
 DISTRIB=Ubuntu
@@ -9,9 +9,8 @@ DISTRIB=Ubuntu
 RELEASENUM=1
 
 # Имена релизов через пробел
-# artful - obsolete
-RELEASES="xenial bionic cosmic disco"
-
+RELEASES="xenial artful bionic cosmic"
+RELEASES="disco"
 
 # Репозиторий на launchpad
 PPA=flacon/ppa

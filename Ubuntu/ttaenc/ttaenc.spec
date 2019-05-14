@@ -1,21 +1,19 @@
 # Имя и версия программы
-PROGRAM=flacon
-VERSION=5.4.0
+PROGRAM=ttaenc
+VERSION=3.4.1
 
 # Дистрибутив
 DISTRIB=Ubuntu
 
 # Номер релиза в пакете
-RELEASENUM=1
+RELEASENUM=2
 
 # Имена релизов через пробел
-# artful - obsolete
-RELEASES="xenial bionic cosmic disco"
-
+#RELEASES="xenial zesty artful bionic cosmic"
+RELEASES="disco"
 
 # Репозиторий на launchpad
 PPA=flacon/ppa
-#PPA=sokoloff/testppa
 
 # Тип сборки (binary|source|debug)
 TYPE=source
