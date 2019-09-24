@@ -4,5 +4,5 @@ ID=com.github.flacon
 
 set -e
 
-flatpak-builder --repo=repo --force-clean _build ${ID}.yaml
-flatpak build-bundle repo flacon.flatpak ${ID}
+flatpak-builder --repo=.flatpak-repo --force-clean .flatpak-build ${ID}.yaml
+flatpak build-bundle .flatpak-repo flacon.flatpak ${ID}

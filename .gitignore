@@ -1,2 +1,4 @@
 *OUT/
 flacon*.tar.gz
+Flatpak/.flatpak-*
+*.flatpak
