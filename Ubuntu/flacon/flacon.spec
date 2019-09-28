@@ -1,25 +1,25 @@
-# Имя и версия программы
+# Name and version of the program
 PROGRAM=flacon
 VERSION=5.5.0
 
-# Дистрибутив
+# Distributive name (Debian or Ubuntu)
 DISTRIB=Ubuntu
 
-# Номер релиза в пакете
+# Release number
 RELEASENUM=1
 
-# Имена релизов через пробел
+# Realese name, separated by space
 RELEASES="xenial bionic disco eoan"
 
 
-# Репозиторий на launchpad
+# Repository on launchpad
 PPA=flacon/ppa
 #PPA=sokoloff/testppa
 
-# Тип сборки (binary|source|debug)
+# Build type (binary|source|debug)
 TYPE=source
 
-# Подписывать ли ключем (yes|no)
+# Sign or no the source package and .changes file (yes|no)
 SIGN=yes
 
 EMAIL='sokoloff.a@gmail.com'
