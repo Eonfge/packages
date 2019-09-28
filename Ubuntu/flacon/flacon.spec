@@ -1,6 +1,6 @@
 # Имя и версия программы
 PROGRAM=flacon
-VERSION=5.4.0
+VERSION=5.5.0
 
 # Дистрибутив
 DISTRIB=Ubuntu
@@ -9,8 +9,7 @@ DISTRIB=Ubuntu
 RELEASENUM=1
 
 # Имена релизов через пробел
-# artful - obsolete
-RELEASES="xenial bionic cosmic disco"
+RELEASES="xenial bionic disco eoan"
 
 
 # Репозиторий на launchpad

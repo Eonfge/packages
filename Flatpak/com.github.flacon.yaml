@@ -196,4 +196,4 @@ modules:
       - -DFLATPAK_BUNDLE=Yes
     sources:
       - type: archive
-        path: flacon-5.4.1.tar.gz
+        path: flacon-5.5.0.tar.gz
